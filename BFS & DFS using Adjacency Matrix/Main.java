@@ -14,6 +14,8 @@ public class Main {
         List<Integer> result = new ArrayList<>();
         bfs(matrix, result);
         System.out.println(result);
+
+        result = new ArrayList<>();
     }
 
     public static void bfs(int[][] matrix, List<Integer> result) {
